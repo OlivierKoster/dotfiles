@@ -15,8 +15,3 @@ ln -sf ~/dotfiles/sketchybar ~/.config/sketchybar
 # AeroSpace
 ln -sf ~/dotfiles/aerospace ~/.config/aerospaceEOF
 
-# Create .gitignore
-cat > .gitignore << 'EOF'
-.DS_Store
-*.swp
-*.log
