@@ -13,10 +13,10 @@ fi
 for sid in $WORKSPACES; do
   sketchybar --add item space.$sid left \
              --set space.$sid label="$sid" \
-                                label.font="sketchybar-app-font:Regular:16.0" \
+                                label.font="sketchybar-app-font:Regular:11.0" \
                                 background.drawing=off \
-                                background.corner_radius=5 \
-                                background.height=24 \
+                                background.corner_radius=3 \
+                                background.height=16 \
                                 drawing=off \
                                 update_freq=2 \
                                 script="$PLUGIN_DIR/aerospace_ws_item.sh $sid" \

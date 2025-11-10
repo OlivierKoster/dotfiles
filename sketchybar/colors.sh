@@ -1,10 +1,11 @@
 #!/bin/bash
 
 export WHITE=0xffffffff
+export TRANSPARENT=0x40000000  # Semi-transparent (default sketchybar)
 
 # -- Teal Scheme --
 export BAR_COLOR=0xff001f30
-export ITEM_BG_COLOR=0xff003547
+export ITEM_BG_COLOR=0x40ffffff  # Default semi-transparent white
 export ACCENT_COLOR=0xff2cf9ed
 
 # -- Gray Scheme --
